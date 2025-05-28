@@ -20,3 +20,10 @@ Ce projet est un système de gestion pour une clinique vétérinaire utilisant D
    ```bash
    git clone https://github.com/Mouhamed910/vet_clinic_app.git
    cd vet_clinic_app
+   ## Contributions
+- Personne 1 (Mouhamed910) : Coordination, résolution du sous-module, revue des PR
+- Personne 3 : Serializer Patient
+- Personne 4 : Vues API Patient
+- Personne 5 : Modèle Patient
+- Personne 6 : URLs API Patient
+- Personne 7 : Configuration settings backend

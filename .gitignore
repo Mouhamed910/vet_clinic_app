@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # .gitignore pour le backend
 __pycache__/
 *.pyc
@@ -10,7 +10,7 @@ venv/
 *.sqlite3
 .env
 *.log
-=======
+
 # .gitignore
 # Backend
 backend/__pycache__/
@@ -27,4 +27,4 @@ frontend/node_modules/
 frontend/build/
 frontend/.env
 frontend/*.log
->>>>>>> b5c5040 (Initialisation des dossiers backend et frontend)
+

@@ -1,12 +1,12 @@
 from rest_framework import viewsets, status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
-from .models import Patient
-from .serializers import PatientSerializer
+from .models import Owner
+from .serializers import OwnerSerializer
 
-class PatientViewSet(viewsets.ModelViewSet):
-    queryset = Patient.objects.all()
-    serializer_class = PatientSerializer
+class OwnerViewSet(viewsets.ModelViewSet):
+    queryset = Owner.objects.all()
+    serializer_class = OwnerSerializer
     permission_classes = [IsAuthenticated]
 
     def list(self, request, *args, **kwargs):
